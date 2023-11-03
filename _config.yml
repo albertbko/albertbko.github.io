@@ -1,3 +1,4 @@
-theme: jekyll-theme-minimal
 title: AK’s page of pages
 description: Homepage
+baseurl: /
+url: http://albertbko.github.io

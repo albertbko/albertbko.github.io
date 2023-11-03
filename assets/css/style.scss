@@ -1,0 +1,47 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page {
+  clear: left;
+  height: 200px;
+  width: 200px;
+  background-color: #f5c78c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page a {
+  color: white;
+}
+
+#team-blue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: rgb(17, 136, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#team-red {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  background-color: rgb(249, 47, 97);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score {
+  color: white;
+  font-size: 200px;
+}
